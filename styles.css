@@ -10,7 +10,7 @@ html {
   padding: 0;
 }
 
-.margin-top-40 { margin-top: 40%; }
+.margin-top-20 { margin-top: 20%; }
 .width-75 { width: 75%; }
 
 h1 {
@@ -36,6 +36,10 @@ p {
   text-align: left;
 }
 
+img {
+  margin-left: 10%;
+}
+
 #pinContainer {
   width: 100%;
   height: 100vh;
@@ -48,12 +52,21 @@ p {
   position: absolute;
 }
 
+.dark-bg-container {
+  padding: 40px 0;
+  background-color: black;
+  opacity: .7;
+}
+
 #pinMaster {
   position: relative;
 }
 
 .one {
   background-color: #1bb1a5;
+  /* background-image: url("images/davidcarson.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; */
 }
 .two {
   background-color: #94c356;
@@ -64,7 +77,6 @@ p {
 .four {
   background-color: #777;
 }
-
 .five {
   background-color: #a63ba0;
 }
